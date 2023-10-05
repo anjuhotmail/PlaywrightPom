@@ -1,0 +1,21 @@
+
+node js
+npm install
+npm init -y to install jsonPackage
+npm init playwright@latest --yes ->to install Play write
+npx playwright test  ->to run the test
+npx playwright show-report ->to show the test report
+npx playwright test --workers 3
+npx playwright test one.specifiefile.js(give the complete location of the file)
+
+C:\Users\qtx317\tool\PlayWright_Automation\tests>npx playwright test First.spec.js --headed ->to run in browser
+npx playwright codegen https://portal.afry.com/ --headed :to do recording
+test('test', async ({ page }) => {  
+npx playwright codegen --browser --firefox https://portal.afry.com/     ->to record the program on specific browser
+npx playwright codegen --target javascript -o filename.spec.js
+npx playwright codegen --viewport-size=800,600  ->to change the size of browser
+npx playwright codegen --device="iPhone 11"                     ->to emulate 
+
+
+
+
